@@ -1,0 +1,10 @@
+::selection {
+  background: rgb(200, 200, 200); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgb(200, 200, 200); /* Gecko Browsers */
+}
+
+body, .title, .description{
+	font-color: rgb(200, 200, 200);
+}

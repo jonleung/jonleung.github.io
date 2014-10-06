@@ -1,0 +1,17 @@
+name: "Jonathan Leung"
+description: ""
+
+url: "http://localhost:3000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: "pygments"
+
+colletions:
+	notebooks:
+		output: true
+		permalink: /:path/
+	projects:
+		output: true

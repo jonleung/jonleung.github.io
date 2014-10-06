@@ -1,0 +1,47 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+
+
+.title {
+	margin-bottom: .7em;
+
+	font-family:  "Josefin Sans";
+	font-weight: 900;
+}
+
+.description {
+	/*#
+	TODO: Actualy add Avenir font here
+	*/
+
+	margin-bottom: 1.5em;
+
+	font-family: "Avenir";
+	font-weight: 300;
+	line-height: 1.5;
+
+}
+
+section.middle {
+	margin-top: 20em;
+	margin-bottom: 20em;
+}
+
+@media(min-height:0px){
+
+	section.first {
+		margin-top: 3em;
+	}
+
+}
+
+@media(min-height:500px){
+
+	section.first {
+		margin-top: 10em;
+	}
+
+}
+
