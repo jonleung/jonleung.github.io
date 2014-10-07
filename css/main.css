@@ -3,35 +3,41 @@ body {
 	width: 100%;
 }
 
-
-.title {
-	margin-bottom: .7em;
-
-	font-family:  "Josefin Sans";
+.title-font {
+	font-family:  "Josefin Slab";
 	font-weight: 900;
 }
 
-.description {
-	/*#
-	TODO: Actualy add Avenir font here
-	*/
-
-	margin-bottom: 1.5em;
-
-	font-family: "Avenir";
+.description-font {
+	font-family: "Pontano Sans", "Avenir", sans-serif;
 	font-weight: 300;
 	line-height: 1.5;
-
 }
 
-section.middle {
-	margin-top: 20em;
-	margin-bottom: 20em;
+.notebook-title {
+	
+}
+
+.notebook-description {
+	font-size: .8em;
+}
+
+.darker {
+	/*background-color: rgb(247, 247, 247);*/
+}
+
+.lighter {
+	background-color: #FFFFFF;
+}
+
+.section {
+	margin-top: 17em;
+	margin-bottom: 17em;
 }
 
 @media(min-height:0px){
 
-	section.first {
+	.section.first {
 		margin-top: 3em;
 	}
 
@@ -39,7 +45,7 @@ section.middle {
 
 @media(min-height:500px){
 
-	section.first {
+	.section.first {
 		margin-top: 10em;
 	}
 

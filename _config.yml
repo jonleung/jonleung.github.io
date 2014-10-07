@@ -9,9 +9,9 @@ markdown: rdiscount
 permalink: pretty
 highlighter: "pygments"
 
+---
 colletions:
 	notebooks:
-		output: true
-		permalink: /:path/
-	projects:
-		output: true
+    output: true
+  projects:
+    output: true
