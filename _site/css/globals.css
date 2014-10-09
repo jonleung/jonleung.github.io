@@ -1,10 +1,38 @@
 ::selection {
-  background: rgb(200, 200, 200); /* WebKit/Blink Browsers */
+  background: #E65B4E; /* WebKit/Blink Browsers */
+  color: #FFFFFF;
 }
 ::-moz-selection {
-  background: rgb(200, 200, 200); /* Gecko Browsers */
+  background: #E65B4E; /* Gecko Browsers */
+  color: #FFFFFF;
 }
 
-body, .title, .description{
-	font-color: rgb(200, 200, 200);
+html {
+	/*font-size: 62.5%;*/
 }
+
+body, h1, h2, h3, h4, h5, h6, .default-color {
+	font-family: "ProximaNovaCond";
+	color: red;
+}
+
+.title-font {
+	font-family: "NovitoNova";
+}
+
+.body-font {
+	font-family: "ProximaNovaCond";
+}
+
+
+.gray, .grey {
+	color: #6d6e70
+}
+
+.highlight {
+	color: #f7931d;
+}
+
+.light 		 			 { font-weight: 300; }
+.semi-bold 			 { font-weight: 500; }
+.bold. .title		 { font-weight: 600; }

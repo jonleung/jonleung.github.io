@@ -1,4 +1,14 @@
 @font-face {
-	font-family: "Adam";
-	src: url('fonts/adam_cg_pro.otf');
+	font-family: "ProximaNovaCond";
+	font-weight: 300;
+	font-style: normal;
+	src: url('fonts/ProximaNovaCond-Light.otf');
 }
+
+@font-face {
+	font-family: "NovitoNova";
+	font-weight: 400;
+	font-style: normal;
+	src: url('fonts/NovitoNova-Regular.otf');
+}
+
