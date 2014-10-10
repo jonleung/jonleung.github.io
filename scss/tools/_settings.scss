@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+//====================================
+// Fonts
+
+$font-title: "NovitoNova", cursive;
+$font-base: "ProximaNovaCond", Helvetica, Arial, sans-serif;
+
+//====================================
+// Colors
+
+$orange: #f7931d;
+$gray: #6d6e70;
+$grey: $gray;
+$white: #ffffff;
+
+
+$color-base: $gray;
+$color-highlight: $orange;
+$color-link: $color-highlight;
+$color-link-hover: darken($color-link, 10%);
+$color-selection: $color-highlight;
+
+
+
+
+
+
+
+
+
+
+/*body, h1, h2, h3, h4, h5, h6, .default-color {
+	font-family: "ProximaNovaCond";
+	color: red;
+}
+
+.title-font {
+	font-family: "NovitoNova";
+}
+
+.body-font {
+	font-family: "ProximaNovaCond";
+}
+
+
+.gray, .grey {
+	color: #6d6e70
+}
+
+.highlight {
+	color: #f7931d;
+}
+
+.light 		 			 { font-weight: 300; }
+.semi-bold 			 { font-weight: 500; }
+.bold. .title		 { font-weight: 600; }
+*/
