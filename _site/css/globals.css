@@ -8,10 +8,27 @@
 }
 
 html {
-	/*font-size: 62.5%;*/
+	
 }
 
-body, h1, h2, h3, h4, h5, h6, .default-color {
+body, h1, h2, h3, h4, h5, p, a {
+	color: #6d6e70;
+	font-family: "ProximaNovaCond";
+}
+
+.highlight {color: #f7931d;}
+
+h2 { font-family: "NovitoNova" }
+
+
+
+
+
+
+
+
+
+/*body, h1, h2, h3, h4, h5, h6, .default-color {
 	font-family: "ProximaNovaCond";
 	color: red;
 }
@@ -36,3 +53,4 @@ body, h1, h2, h3, h4, h5, h6, .default-color {
 .light 		 			 { font-weight: 300; }
 .semi-bold 			 { font-weight: 500; }
 .bold. .title		 { font-weight: 600; }
+*/

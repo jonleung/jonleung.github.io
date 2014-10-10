@@ -60,11 +60,31 @@ https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Slab:700|Pontano+Sa
 </head>
 <body>
 
-	<nav class="">
+	<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Jonathan Leung</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+
+  </section>
+</nav>
+
+
+<!-- <nav class="">
 	<div class="row">
 		<ul>
 			<div class="medium-6 columns">
-				<li class="logo"><a href="#">JONATHAN LEUNG</a></li>
+				<li class="logo"><a class="logo" href="#">JONATHAN LEUNG</a></li>
 			</div>
 
 			<div class="large-offset-1 medium-1 column link-container">
@@ -77,20 +97,20 @@ https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Slab:700|Pontano+Sa
 		</ul>
 	</div>
 </nav>
-	
+ -->	
 
 	<div class="row">
 		<div class="medium-12 columns">
 			<div class="intro">
 					
-				<div class="panel section"> <!-- setup colors, setup spacing -->
+				<div class="section v-center">
 					<h3>I care about</h3>
-					<h2>EMPOWERING KIDS</h2>
+					<h2 class="highlight">EMPOWERING KIDS</h2>
 				</div>
 
-				<div class="panel section"> <!-- setup colors, setup spacing -->
+				<div class="section">
 					<h3>My name is Jonathan Leung</h3>
-					<h2>I CREATE EXPERIENCES THAT CHANGE LIVES:</h2>
+					<h2 class="highlight">I CREATE EXPERIENCES THAT CHANGE LIVES:</h2>
 				</div>			
 
 
@@ -177,7 +197,10 @@ https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Slab:700|Pontano+Sa
 </script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/jqueryui/jquery-ui.min.js"></script>
-<script src="bower_components/foundation/js/foundation.min.js"></script>
+
+<script src="bower_components/foundation/js/foundation/foundation.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
 <script src="bower_components/handlebars/handlebars.min.js"></script>
 
 <script src="js/helpers.js"></script>	
