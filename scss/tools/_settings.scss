@@ -10,20 +10,30 @@ $font-base: "ProximaNovaCond", Helvetica, Arial, sans-serif;
 // Colors
 
 $orange: #f7931d;
+
 $gray: #6d6e70;
 $grey: $gray;
 $white: #ffffff;
+$light-gray: #f2f2f2;
+$light-grey: $light-gray;
+$dark-gray: #424344;
+$dark-gray: $dark-gray;
+
+
 
 
 $color-base: $gray;
+$color-title: $dark-gray;
 $color-highlight: $orange;
 $color-link: $color-highlight;
 $color-link-hover: darken($color-link, 10%);
 $color-selection: $color-highlight;
+$color-alt-background: $light-gray;
 
 //====================================
 // Top Bar Settings
 $tb-link-size: 1.1rem;
+$tb-title-font-size: 2rem;
 
 
 

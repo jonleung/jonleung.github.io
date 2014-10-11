@@ -1,6 +1,28 @@
-body, h1, h2, h3, h4, h5, p, a {
+body, h3 {
 	font-family: $font-base;
 	color: $color-base;
+}
+
+h1, h2{
+	font-family: $font-title;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: $color-title;
+	font-size: 3.75rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+a, a:visited {
+	color: $color-highlight;
+}
+
+a:hover, a:active {
+	color: darken($color-highlight, 6%);
 }
 
 ::selection {
@@ -17,4 +39,4 @@ ol, ul {
 }
 
 
-h2 { font-family: $font-title; }
+

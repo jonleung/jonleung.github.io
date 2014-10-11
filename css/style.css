@@ -24,6 +24,17 @@
 .semi-bold 			 { font-weight: 500; }
 .bold. .title		 { font-weight: 600; }
 */
+/* line 1, ../scss/tools/_helpers.scss */
+.alt-background {
+  background-color: #f2f2f2;
+}
+
+/* line 5, ../scss/tools/_helpers.scss */
+.post-section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -3545,7 +3556,7 @@ meta.foundation-mq-topbar {
 /* line 193, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
   line-height: 70px;
-  font-size: 1.0625rem;
+  font-size: 2rem;
   margin: 0;
 }
 /* line 197, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -4856,32 +4867,54 @@ blockquote p {
   }
 }
 /* line 1, ../scss/base/_base.scss */
-body, h1, h2, h3, h4, h5, p, a {
+body, h3 {
   font-family: "ProximaNovaCond", Helvetica, Arial, sans-serif;
   color: #6d6e70;
 }
 
 /* line 6, ../scss/base/_base.scss */
+h1, h2 {
+  font-family: "NovitoNova", cursive;
+  text-transform: uppercase;
+}
+
+/* line 11, ../scss/base/_base.scss */
+h2 {
+  color: #424344;
+  font-size: 3.75rem;
+}
+
+/* line 16, ../scss/base/_base.scss */
+p {
+  font-size: 1.5rem;
+}
+
+/* line 20, ../scss/base/_base.scss */
+a, a:visited {
+  color: #f7931d;
+}
+
+/* line 24, ../scss/base/_base.scss */
+a:hover, a:active {
+  color: #ed8408;
+}
+
+/* line 28, ../scss/base/_base.scss */
 ::selection {
   background: #f7931d;
   color: #FFFFFF;
 }
 
-/* line 10, ../scss/base/_base.scss */
+/* line 32, ../scss/base/_base.scss */
 ::-moz-selection {
   background: #f7931d;
   /* Gecko Browsers */
   color: #FFFFFF;
 }
 
-/* line 15, ../scss/base/_base.scss */
+/* line 37, ../scss/base/_base.scss */
 ol, ul {
   list-style-type: none;
-}
-
-/* line 20, ../scss/base/_base.scss */
-h2 {
-  font-family: "NovitoNova", cursive;
 }
 
 @font-face {
@@ -4901,8 +4934,8 @@ h2 {
   /*padding-top: 10rem;*/
   /*height: 100%;*/
   /*height: 100vh;*/
-  margin-top: 50vh;
-  margin-bottom: 50vh;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
 }
 
 /* line 9, ../scss/layout/_intro.scss */
@@ -4913,7 +4946,6 @@ h2 {
 /* line 13, ../scss/layout/_intro.scss */
 .intro h2 {
   color: #f7931d;
-  font-size: 4rem;
 }
 
 /*.intro {
@@ -4935,49 +4967,29 @@ h2 {
 	margin-top: 60rem;
 }
 */
-/* line 1, ../scss/layout/_nav.scss */
-.row {
-  height: 3em;
-}
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/layout/_nav.scss */
+  .notebook {
+    text-align: center;
+  }
 
-/* line 5, ../scss/layout/_nav.scss */
-.logo {
-  font-family: "NovitoNova";
-  font-size: 2.5em;
+  /* line 5, ../scss/layout/_nav.scss */
+  .notebook h2 {
+    margin-top: 2rem;
+  }
 }
-
-/* line 10, ../scss/layout/_nav.scss */
-.link, .link-container {
-  height: 100%;
-  display: table;
-}
-
-/* line 15, ../scss/layout/_nav.scss */
-.link a {
-  position: absolute;
-  bottom: -3px;
-}
-
-/* line 20, ../scss/layout/_nav.scss */
-.link {
-  /*	position: absolute;
-  	height: 3em;
-  */
-}
-
-/* line 25, ../scss/layout/_nav.scss */
-nav a {
-  color: #6d6e70;
-}
-
 /* line 1, ../scss/layout/_notebook.scss */
-.notebook-title {
-  font-weight: 600;
-  font-size: 4rem;
+.notebooks .img-container {
+  margin: 0 auto;
 }
 
-/** {
-	border-width: 1px;
-	border-style: dashed;
-	border-color: #EEEEEE;
-}*/
+/* line 5, ../scss/layout/_notebook.scss */
+.notebook {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* line 10, ../scss/layout/_notebook.scss */
+.notebook h2 {
+  line-height: 90%;
+}
