@@ -4930,43 +4930,27 @@ ol, ul {
   src: url("fonts/NovitoNova-Regular.otf");
 }
 /* line 1, ../scss/layout/_intro.scss */
-.intro .section {
-  /*padding-top: 10rem;*/
-  /*height: 100%;*/
-  /*height: 100vh;*/
-  margin-top: 40vh;
-  margin-bottom: 40vh;
+.intro1 .section {
+  padding-top: 40vh;
+  padding-bottom: 40vh;
 }
 
-/* line 9, ../scss/layout/_intro.scss */
+/* line 6, ../scss/layout/_intro.scss */
+.intro2 .section {
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+
+/* line 11, ../scss/layout/_intro.scss */
 .intro h3 {
   font-size: 2.5rem;
 }
 
-/* line 13, ../scss/layout/_intro.scss */
+/* line 15, ../scss/layout/_intro.scss */
 .intro h2 {
   color: #f7931d;
 }
 
-/*.intro {
-}
-
-.intro-a {
-	margin-top: 35rem;
-}
-
-.intro-b {
-	margin-top: 50rem;
-}
-
-.intro .line-1, .intro .line-2 {
-	font-size: 5rem;
-}
-
-.notebooks {
-	margin-top: 60rem;
-}
-*/
 @media only screen and (max-width: 40em) {
   /* line 2, ../scss/layout/_nav.scss */
   .notebook {
