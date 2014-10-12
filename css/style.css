@@ -4938,7 +4938,7 @@ ol, ul {
 /* line 6, ../scss/layout/_intro.scss */
 .intro2 .section {
   padding-top: 20vh;
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
 }
 
 /* line 11, ../scss/layout/_intro.scss */
@@ -4964,21 +4964,32 @@ ol, ul {
 }
 /* line 1, ../scss/layout/_notebook.scss */
 .notebooks {
+  margin-top: 2.5rem;
   padding-top: 5rem;
 }
 
-/* line 5, ../scss/layout/_notebook.scss */
+/* line 6, ../scss/layout/_notebook.scss */
+.notebooks .heading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px #6d6e70 solid;
+  margin-bottom: 2rem;
+}
+
+/* line 17, ../scss/layout/_notebook.scss */
 .notebooks .img-container {
   margin: 0 auto;
 }
 
-/* line 9, ../scss/layout/_notebook.scss */
+/* line 21, ../scss/layout/_notebook.scss */
 .notebook {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
-/* line 14, ../scss/layout/_notebook.scss */
+/* line 26, ../scss/layout/_notebook.scss */
 .notebook h2 {
   line-height: 90%;
 }

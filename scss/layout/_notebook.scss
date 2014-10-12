@@ -1,5 +1,17 @@
 .notebooks {
+	margin-top: 2.5rem;
 	padding-top: 5rem;
+}
+
+.notebooks .heading {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 20rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px $color-base solid;
+
+	margin-bottom: 2rem;
 }
 
 .notebooks .img-container {
