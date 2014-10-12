@@ -26,11 +26,11 @@ a:hover, a:active {
 }
 
 ::selection {
-  background: $color-highlight;
+  background: lighten($color-highlight, 10%);
   color: $white;
 }
 ::-moz-selection {
-  background: $color-highlight; /* Gecko Browsers */
+  background: lighten($color-highlight, 10%); /* Gecko Browsers */
   color: $white;
 }
 

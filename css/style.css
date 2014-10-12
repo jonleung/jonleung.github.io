@@ -26,7 +26,7 @@
 */
 /* line 1, ../scss/tools/_helpers.scss */
 .alt-background {
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
 }
 
 /* line 5, ../scss/tools/_helpers.scss */
@@ -3792,8 +3792,8 @@ meta.foundation-mq-topbar {
 }
 /* line 339, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: #e6e6e6;
-  background: #e6e6e6;
+  background-color: #f8f8f8;
+  background: #f8f8f8;
   color: #6d6e70;
 }
 /* line 349, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3982,8 +3982,8 @@ meta.foundation-mq-topbar {
   }
   /* line 487, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background-color: #e6e6e6;
-    background: #e6e6e6;
+    background-color: #f8f8f8;
+    background: #f8f8f8;
     color: #6d6e70;
   }
   /* line 496, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3994,8 +3994,8 @@ meta.foundation-mq-topbar {
   }
   /* line 500, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #e6e6e6;
-    background: #e6e6e6;
+    background-color: #f8f8f8;
+    background: #f8f8f8;
   }
   /* line 509, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -4090,8 +4090,8 @@ meta.foundation-mq-topbar {
   /* line 588, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: #6d6e70;
-    background-color: #e6e6e6;
-    background: #e6e6e6;
+    background-color: #f8f8f8;
+    background: #f8f8f8;
   }
   /* line 597, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -4139,8 +4139,8 @@ meta.foundation-mq-topbar {
 
   /* line 650, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #e6e6e6;
-    background: #e6e6e6;
+    background-color: #f8f8f8;
+    background: #f8f8f8;
     color: #6d6e70;
   }
   /* line 659, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -4901,13 +4901,13 @@ a:hover, a:active {
 
 /* line 28, ../scss/base/_base.scss */
 ::selection {
-  background: #f7931d;
+  background: #f9ab4e;
   color: #FFFFFF;
 }
 
 /* line 32, ../scss/base/_base.scss */
 ::-moz-selection {
-  background: #f7931d;
+  background: #f9ab4e;
   /* Gecko Browsers */
   color: #FFFFFF;
 }
@@ -4931,8 +4931,8 @@ ol, ul {
 }
 /* line 1, ../scss/layout/_intro.scss */
 .intro1 .section {
-  padding-top: 40vh;
-  padding-bottom: 40vh;
+  padding-top: 20vh;
+  padding-bottom: 30vh;
 }
 
 /* line 6, ../scss/layout/_intro.scss */
@@ -4963,17 +4963,22 @@ ol, ul {
   }
 }
 /* line 1, ../scss/layout/_notebook.scss */
+.notebooks {
+  padding-top: 5rem;
+}
+
+/* line 5, ../scss/layout/_notebook.scss */
 .notebooks .img-container {
   margin: 0 auto;
 }
 
-/* line 5, ../scss/layout/_notebook.scss */
+/* line 9, ../scss/layout/_notebook.scss */
 .notebook {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
-/* line 10, ../scss/layout/_notebook.scss */
+/* line 14, ../scss/layout/_notebook.scss */
 .notebook h2 {
   line-height: 90%;
 }
