@@ -9,6 +9,7 @@ App.init = function() {
 var initNavBar = function() {
 
 	var navToSectionClassMap = {
+		"nav-home": "top-bar",
 		"nav-projects": "notebooks",
 		"nav-about": "about",
 		"nav-contact": "contact"
