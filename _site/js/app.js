@@ -3,6 +3,7 @@ var App = {};
 App.init = function() {
 	$(document).foundation();
 	initNavBar();
+	initScrollingCares();
 
 };
 
@@ -34,6 +35,29 @@ var initNavBar = function() {
 			})(id));
 		}
 	}
+
+
+}
+
+var initScrollingCares = function() {
+
+	$care = $("#care");
+
+	var cares = ["empowering kids!", "creative self-expression!", "creating space for vulnerability!", "celebrating failure!", "catalyzing the next generation of change makers!", "getting stuff done!"];
+	$care.html(cares[0]);
+	
+	var careY = $care.offset().top;
+	var offsetCareY = careY - 150; // 50 pixels above the top of care
+	var pixlesPerCare = offsetCareY / cares.length;
+
+	$(window).scroll(function(eventObject) {
+		var curY = $(document).scrollTop();
+
+		var careNumber = Math.floor(curY /  pixlesPerCare);
+		var careText = cares[careNumber];
+		$care.html(careText);
+
+	});
 
 
 }
