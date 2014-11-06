@@ -43,11 +43,11 @@ var initScrollingCares = function() {
 
 	$care = $("#care");
 
-	var cares = ["empowering kids!", "creative self-expression!", "creating space for vulnerability!", "celebrating failure!", "catalyzing the next generation of change makers!", "getting stuff done!"];
+	var cares = ["empowering kids!", "creative self-expression!", "creating space for vulnerability!", "celebrating failure!", "catalyzing the next generation of change makers!"];
 	$care.html(cares[0]);
 	
 	var careY = $care.offset().top;
-	var offsetCareY = careY - 150; // 50 pixels above the top of care
+	var offsetCareY = careY - $("nav").height() - 50; // 50 pixels above the top of care
 	var pixlesPerCare = offsetCareY / cares.length;
 
 	$(window).scroll(function(eventObject) {
