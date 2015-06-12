@@ -1,7 +1,0 @@
-Links
-	Orange Color
-
-Notebook
-	Make the LH and ASC logo have the same height 
-
-	Make the different screen sizes look right for notebooks
