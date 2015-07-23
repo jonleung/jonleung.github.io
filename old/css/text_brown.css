@@ -1,0 +1,93 @@
+h1,h2,h3,h4,h5,h6 {
+	display: inline;
+}
+
+h1.Nav {
+	font: 30px "GillSans-Light", "Gill Sans", "GillSans-Light", "Gill Sans W01 Light", "Century Gothic", "Arial";
+	white-space:nowrap;
+	letter-spacing: 1px;
+	display: inline;
+	font-weight: 100;
+}
+
+#current.Nav {
+	color:#F2EBD0;/*8BDB0F older darker one 75ba0b*/
+}
+
+.Nav:not(#current) {
+	color:#83d30f;
+}
+
+format.light_gray {
+	color:#786E62;
+	font-family: "Lato" ,'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'HelveticaNeue W01 25 UltLt', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+h2.Text{/**/
+	/*color: #404040;*/
+	color:#F2EBD0; /*E3DFD1   #CAC7B9*/ /*Use gill sans for windows*/
+	font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,'Century Gothic', Arial, "Lucida Grande", sans-serif;
+	/*
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', "Gill Sans W01 Light", 'Helvetica Neue W01 45 Light', 'Helvetica Neue', 'Century Gothic', Arial, Helvetica, sans-serif;*/
+	font-size: 19px;
+	letter-spacing: 2px; /*use 2px for mac, 1px for windows*/
+	white-space:nowrap;
+	font-weight: 100;
+}
+
+a {
+	text-decoration:none;	
+}
+
+/* Nav Links */
+a.Nav:link, a.Nav:visited {
+	color: #FFFFFF; /*A5DCFF*/
+}
+a.Nav:hover, a.Nav:active{
+	color: #82B2D1; /*82B2D1*/
+}
+
+/* Text Links */
+a.Text:link, a.Text:visited {
+	color: #90e510; /* 8BDB0F #A5DCFF       B8E2FC		A5DCFF OR Green:75ba0b*/
+}
+a.Text:hover,a.Text:active {
+	color: #73ba0d; /*7CC3DD*/
+}
+
+
+/* Text Links */
+a.Subtle:link {
+	color: #F2EBD0; /*B8E2FC		A5DCFF OR Green:75ba0b*/
+}
+a.Subtle:visited {
+	color: #F2EBD0;
+}
+a.Subtle:hover,a.Subtle:active {
+	color: #A5DCFF; /*7CC3DD*/
+}
+a.Subtle:active {
+	color: #82B2D1;
+}
+
+
+#Title {
+	font-family:"GillSans-Light", "Century Gothic","Arial";
+	font-size:23px;
+}
+
+h2.BottomText {
+	color:#F2EBD0; /*E3DFD1   #CAC7B9*/ /*Use gill sans for windows*/
+	font-family: "Lato", 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', "Gill Sans W01 Light", 'Helvetica Neue W01 45 Light', 'Helvetica Neue', 'Century Gothic', Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	letter-spacing: 2px; /*use 2px for mac, 1px for windows*/
+	white-space:nowrap;
+	font-weight: 100;
+}
+
+
+
