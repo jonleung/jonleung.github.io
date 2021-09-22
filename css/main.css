@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Heading;
+  src:  url('../fonts/heading.woff2') format('woff2'),
+}
+@font-face {
+  font-family: Body;
+  src:  url('../fonts/body.woff2') format('woff2'),
+}
+
+
 body {
   font-family: "Georgia";
   color: rgb(68, 68, 68);
@@ -15,7 +25,7 @@ body {
 }
 
 .title {
-  font-family: "Lato", sans-serif;
+  font-family: Heading;
   font-size: 1.7em;
   font-weight: normal;
   letter-spacing: 4px;
