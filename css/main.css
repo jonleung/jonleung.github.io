@@ -31,9 +31,19 @@ body {
   margin-right: auto;
   max-width: 315px;
 
-  padding-top: 4vh;
   padding-left: 7%;
   padding-right: 7%;
+}
+
+@media screen and (max-height: 900px) {
+  .container {
+    padding-top: 1vh;
+  }
+}
+@media screen and (min-height: 901px) {
+  .container {
+    padding-top: 6vh;
+  }
 }
 
 .title {
@@ -43,15 +53,29 @@ body {
   margin-bottom: 0.7em;
 }
 
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 2em;
+  }
+}
+
 .description {
   font-size: 1em;
   font-family: Body, sans-serif;
   line-height: 1.9em;
 }
 
-p {
-  margin-bottom: 1.5em;
+@media screen and (max-height: 900px) {
+  p {
+    margin-bottom: 1em;
+  }
 }
+@media screen and (min-height: 901px) {
+  p {
+    margin-bottom: 1.5em;
+  }
+}
+
 
 a, a:visited {
   color: inherit;
@@ -59,7 +83,7 @@ a, a:visited {
 }
 
 .link-out {
-  padding-top: 1em;
+  padding-top: 1.5em;
   font-family: Body;
   font-weight: 900;
   font-size: .75em;
